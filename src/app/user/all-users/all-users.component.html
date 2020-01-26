@@ -1,0 +1,11 @@
+<h4>Without Resolver</h4>
+<div class="row mt-4">
+  <div class="col-4" *ngFor="let data of dataArr">
+    <div class="mb-4 p-3" style="border: 1px solid grey; height: 150px;">
+        <p style="font-size: 14px;">userId: {{data.userId}}</p>
+        <h4 style="font-size: 18px;">Title: {{data.title}}</h4>
+    </div>
+
+  </div>
+</div>
+<p *ngIf="loader">loading....</p>
