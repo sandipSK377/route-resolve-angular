@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ApiService } from './api.service';
+import { ApiService } from 'src/app/core/services/api.service';
 import { map } from 'rxjs/operators';
 import { delay } from 'rxjs/operators';
 
